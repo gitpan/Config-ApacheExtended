@@ -2,7 +2,6 @@ package Config::ApacheExtended;
 
 use Parse::RecDescent;
 use Config::ApacheExtended::Grammar;
-#use Config::ApacheExtended::ParseTree;
 use IO::File;
 use Scalar::Util qw(weaken);
 use Text::Balanced qw(extract_variable);
@@ -11,7 +10,7 @@ use Carp qw(croak cluck);
 use strict;
 BEGIN {
 	use vars qw ($VERSION $DEBUG);
-	$VERSION	= sprintf("%d.%02d", q$Revision: 1.12 $ =~ /(\d+)/g);
+	$VERSION	= sprintf("%d.%02d", q$Revision: 1.13 $ =~ /(\d+)/g);
 	$DEBUG		= 0;
 }
 
