@@ -11,7 +11,7 @@ use Carp qw(croak cluck);
 use strict;
 BEGIN {
 	use vars qw ($VERSION $DEBUG);
-	$VERSION	= sprintf("%d.%02d", q$Revision: 1.11 $ =~ /(\d+)/g);
+	$VERSION	= sprintf("%d.%02d", q$Revision: 1.12 $ =~ /(\d+)/g);
 	$DEBUG		= 0;
 }
 
@@ -19,7 +19,7 @@ BEGIN {
 
 =head1 NAME
 
-Config::ApacheExtended - 
+Config::ApacheExtended - use extended apache format config files
 
 =head1 SYNOPSIS
 

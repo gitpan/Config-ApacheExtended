@@ -25,3 +25,4 @@ t/parse.conf
 t/simple.conf
 t/validate_bad.conf
 t/validate_good.conf
+META.yml                                 Module meta-data (added by MakeMaker)
