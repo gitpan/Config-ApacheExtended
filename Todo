@@ -1,0 +1,3 @@
+TODO list for Config::ApacheExtended
+
+- rework the grammar file, to move some of the validation/substitution features into actions in the grammar
